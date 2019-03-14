@@ -4,8 +4,14 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
 <style>
-
 
 .fa {
   padding: 20px;
@@ -23,16 +29,20 @@
 .fa-facebook {
   background: #3B5998;
   color: white;
+  width: 70px;
+
 }
 
 .fa-twitter {
   background: #55ACEE;
   color: white;
+   width: 70px;
 }
 
 .fa-google {
   background: #dd4b39;
   color: white;
+   width: 70px;
 }
 
 .fa-linkedin {
@@ -43,11 +53,13 @@
 .fa-youtube {
   background: #bb0000;
   color: white;
+   width: 70px;
 }
 
 .fa-instagram {
   background: #125688;
   color: white;
+   width: 70px;
 }
 
 .fa-pinterest {
@@ -171,7 +183,7 @@ li:last-child {
 
 
 </style>
-		<center><img src="https://lh3.googleusercontent.com/-VnmrgqcS4-g/XIkyfS4ZmYI/AAAAAAAAK9Y/nryGeQRKz4A1QHb1byIWsmWRSXC9NCafgCJoC/w530-h342-n-rw/Goon%2BLogo.PNG" width="400" height="200"> </center>
+		<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vSgHTYFIjBtUKj3snKfzodKevDInbXRj0fdCKay9pL8cLPEzylOmw2W3Q2Gn8G4y34YD8GsLE4NHCdW/pub?w=795&h=726" width="400" height="200"> </center>
 	<br>
     
 	<ul>
@@ -243,24 +255,66 @@ function stopWorker() {
     	<td>Increase of 60%</td>
     	<td>Decrease of 80%</td>
   </tr>
-  
-  
+ </table></center>
 
-</table></center>
 <br>
+<hr>
+<center><h1>Gallery</h1></center>
+<!DOCTYPE html>
+
+
+<div class="container"> 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiPjnBg42d1qenhLlh9NkJkF0yE6OQ0rjHoOdWlVhkJY3gVJOw" alt="goon" width="300" height="500;"></center>
+      </div>
+      <div class="item">
+        <img src="data:image/jpeg;base64,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" alt="Goon" style="width:100%">
+      </div>
+    
+ 
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<hr>
 
 <h2> Contact Us </h2>
 
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-google"></a>
-<a href="#" class="fa fa-youtube"></a>
-<a href="#" class="fa fa-instagram"></a>
-
-<h2>My First JavaScript</h2>
+<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+<a href="https://www.twitter.com" class="fa fa-twitter"></a>
+<a href="https://plus.google.com" class="fa fa-google"></a>
+<a href="https://www.youtube.com" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com" class="fa fa-instagram"></a>
 
 
-<p id="demo"></p>
+<h2>Meet Our Users</h2>
+<hr>
+<h4><ol>
+  <li>User for 12 Years - Yongzhi Si</li>
+  <br>
+  <li>User for 5 Years - Mark Wang</li>
+  <br>
+  <li>User for 2 Years - Carlos Kuang Lin</li>
+</ol></h4>
+
+
 
 	</body>
 </html>
